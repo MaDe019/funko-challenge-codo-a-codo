@@ -1,5 +1,17 @@
+.banner {
+  width: auto;
+  height: 388px;
+  top: 144px;
+}
+
+body {
+  display: grid;
+  grid-area: auto 1fr auto;
+  min-height: 100vh;
+}
+
 footer {
-  color: rgb(112, 71, 167);
+  color: rgb(111, 0, 255);
 }
 
 /*# sourceMappingURL=style.css.map */
