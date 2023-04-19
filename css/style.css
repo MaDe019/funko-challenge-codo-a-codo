@@ -1,17 +1,45 @@
+/* reset de estilos precargados navegador */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar__bg {
+  background-color: rgb(34, 38, 42);
+}
+
 .banner {
-  width: auto;
+  background-image: linear-gradient(to bottom, rgb(34, 38, 42), white);
   height: 388px;
-  top: 144px;
+}
+
+.banner__img-height {
+  background-image: url("../media/funkos-banner.webp");
+  background-position: bottom;
+  background-size: 100%;
+  height: 388px;
+}
+
+.banner__info {
+  filter: none;
+  color: white;
 }
 
 body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: grid;
-  grid-area: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
 
 footer {
-  color: rgb(111, 0, 255);
+  color: rgb(34, 38, 42);
 }
 
 /*# sourceMappingURL=style.css.map */

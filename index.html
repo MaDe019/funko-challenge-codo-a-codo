@@ -37,18 +37,97 @@
     <!-- HEADER -->
     <header>
       <!-- NAV BAR -->
-      <nav></nav>
+      <div class="navbar__bg">
+        <nav
+          class="container navbar bg-dark navbar-expand-lg"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="media/branding/logo_light_horizontal.svg" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- MAIN -->
     <main>
       <!-- BANNER -->
-      <div class="container">
-        <img
-          class="img-fluid banner"
-          src="media/funkos-banner.webp"
-          alt="banner funko shop"
-        />
+      <div class="banner mb-2">
+        <div class="container">
+          <!-- background banner -->
+          <div class="banner__img-height">
+            <!-- info del banner -->
+            <div class="banner__info">
+              <h2>Nuevos Ingresos</h2>
+              <p>Descubri el proximo FUNKO POP de tu colección</p>
+              <a href="page/shop.html">
+                <button type="button" class="btn btn-light rounded-5">
+                  SHOP
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- TITULO DE LA PAGINA H1 va uno solo por pagina -->
       <h1>PAGINA TEMPLATE maDe</h1>

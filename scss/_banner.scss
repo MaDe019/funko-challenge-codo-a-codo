@@ -1,5 +1,17 @@
 .banner {
-  width: auto;
-  height: 388px;
-  top: 144px;
+  background-image: linear-gradient(to bottom, $color3, $color2);
+  height: $banner--heigth;
+}
+
+.banner__img-height {
+  background-image: url("../media/funkos-banner.webp");
+  background-position: bottom;
+  background-size: 100%;
+
+  height: $banner--heigth;
+}
+
+.banner__info {
+  filter: none;
+  color: $color2;
 }
