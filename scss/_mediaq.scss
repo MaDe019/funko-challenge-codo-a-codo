@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .banner__img-height {
+    height: $banner--heigth-md;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav__img-xl {
+    height: 2.5rem;
+  }
+}
+
+// opción si quiero que aparezca otro logo
+
+// @media (max-width: 576px) {
+//     .nav__img-xl {
+//       display: none;
+//     }
+//   }
+
+// @media (min-width: 576px) {
+//   .nav__img-xs {
+//     display: none;
+//   }
+// }

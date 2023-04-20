@@ -21,7 +21,7 @@ a {
 
 .banner__img-height {
   background-image: url("../media/funkos-banner.webp");
-  background-position: bottom;
+  background-position: 100% 80%;
   background-size: 100%;
   height: 388px;
 }
@@ -29,6 +29,9 @@ a {
 .banner__info {
   filter: none;
   color: white;
+  backdrop-filter: blur(3px);
+  height: 100%;
+  padding: 5%;
 }
 
 body {
@@ -40,6 +43,17 @@ body {
 
 footer {
   color: rgb(34, 38, 42);
+}
+
+@media (max-width: 768px) {
+  .banner__img-height {
+    height: 194px;
+  }
+}
+@media (max-width: 576px) {
+  .nav__img-xl {
+    height: 2.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,13 +5,15 @@
 
 .banner__img-height {
   background-image: url("../media/funkos-banner.webp");
-  background-position: bottom;
+  background-position: 100% 80%;
   background-size: 100%;
-
   height: $banner--heigth;
 }
 
 .banner__info {
   filter: none;
   color: $color2;
+  backdrop-filter: blur(3px);
+  height: 100%;
+  padding: 5%;
 }
