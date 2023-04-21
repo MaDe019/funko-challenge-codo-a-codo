@@ -11,9 +11,22 @@
 }
 
 .banner__info {
-  filter: none;
   color: $color2;
   backdrop-filter: blur(3px);
   height: 100%;
   padding: 5%;
+
+  & button {
+    box-shadow: 5px 10px 10px $shadow-color;
+    width: 50%;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px $shadow-color;
+  }
+  & h2 {
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px $shadow-color;
+  }
+  &p {
+    text-shadow: 2px 2px 3px $shadow-color;
+  }
 }

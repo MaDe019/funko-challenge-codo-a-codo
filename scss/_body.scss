@@ -1,7 +1,23 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+}
+
+h1 {
+  font-weight: bolder;
+  text-shadow: 3px 3px 15px $shadow-color;
+}
+
+p {
+  text-align: left;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+h3 {
+  text-align: left;
+  line-height: 1.25;
+  font-size: 1.25rem;
 }

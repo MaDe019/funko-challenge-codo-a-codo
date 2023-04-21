@@ -1,5 +1,14 @@
+// AJUSTES BANNER
+@media (max-width: 992px) {
+  .banner__img-height,
+  .banner {
+    height: $banner--heigth-lg;
+  }
+}
+
 @media (max-width: 768px) {
-  .banner__img-height {
+  .banner__img-height,
+  .banner {
     height: $banner--heigth-md;
   }
 }
@@ -10,8 +19,13 @@
   }
 }
 
-// opción si quiero que aparezca otro logo
+@media (min-width: 576px) {
+  .banner__info button {
+    max-width: 40%;
+  }
+}
 
+// opción si quiero que aparezca otro logo
 // @media (max-width: 576px) {
 //     .nav__img-xl {
 //       display: none;
@@ -23,3 +37,26 @@
 //     display: none;
 //   }
 // }
+
+// AJUSTES DE TEXTO
+@media (min-width: 768px) {
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+}

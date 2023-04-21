@@ -2,7 +2,9 @@
 $color1: black;
 $color2: white;
 $color3: rgb(34, 38, 42);
+$shadow-color: black;
 
 // altura de banner
 $banner--heigth: 388px;
-$banner--heigth-md: (388px/2);
+$banner--heigth-md: (388px * 0.5);
+$banner--heigth-lg: (388px * 0.75);

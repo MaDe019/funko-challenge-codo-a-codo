@@ -26,6 +26,12 @@
     />
     <!-- GOOGLE FONT -->
     <!-- pegar link de google font de letra seleccionada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- TITULO PESTAÑA + ICONO -->
     <title>FUNKOSHOP</title>
@@ -70,15 +76,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -87,32 +85,50 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    SHOP
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">STAR WARS</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">POKEMON INDIGO</a>
                     </li>
-                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">HARRY POTTER</a>
+                    </li>
+                    <!-- barra de separación para agregar otro item -->
+                    <!-- <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
+                  <a class="nav-link" aria-current="page" href="#">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LOGING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-cart-fill"></i>
+                    <!-- icono de media carrito -->
+                    <!-- <img
+                      class="nav__icon"
+                      src="media/icons/cart-icon.svg"
+                      alt="carrito"
+                  /> -->
+                  </a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
                 <input
                   class="form-control me-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="BUSCAR FUNKO"
                   aria-label="Search"
                 />
                 <button class="btn btn-outline-success" type="submit">
-                  Search
+                  BUSCAR
                 </button>
               </form>
             </div>
@@ -142,54 +158,152 @@
         </div>
       </div>
       <!-- TITULO DE LA PAGINA H1 va uno solo por pagina -->
-      <h1>PAGINA TEMPLATE maDe</h1>
+      <div class="container">
+        <h1>FUNKOSHOP</h1>
+      </div>
 
-      <!-- SECTION DE X TEMA -->
+      <!-- ACCESOS A SHOP -->
       <section>
-        <h2>Galería responsive</h2>
-        <!-- ARTICLE -->
+        <!-- articulos del shop -->
         <article>
           <!-- galería de imagenes -->
-          <div class="container mt-2 border p-3">
-            <div class="row justify-content-between">
-              <div class="col-6 col-md-4 col-xl-2 rounded border">
-                <img
-                  src="media/harry-1.webp"
-                  alt="Comentario Imagen 1"
-                  class="img-fluid"
-                />
+          <div class="container">
+            <div>
+              <!--star wars  -->
+              <div class="row p-3 align-items-center shadow rounded-3 mb-4">
+                <span class="col-lg-6 p-3">
+                  <div>
+                    <h3>STAR WARS & THE MANDALORIAN</h3>
+                    <p>
+                      Disfruta de una saga que sigue agregrando personajes a su
+                      colección.
+                    </p>
+                    <svg viewBox="0 0 100 1" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="0" y1="0" x2="100" y2="0" stroke="tomato" />
+                    </svg>
+                  </div>
+                  <a href="#"
+                    ><button class="btn btn-dark rounded-5">
+                      VER COLECCIÓN
+                    </button></a
+                  >
+                </span>
+                <span class="col-lg-6">
+                  <img
+                    src="media/star-wars/baby-yoda-1.webp"
+                    alt="Comentario Imagen 1"
+                    class="img-fluid"
+                  />
+                </span>
               </div>
-              <div class="col-6 col-md-4 col-xl-2 rounded border">
-                <img
-                  src="media/hermione-1.webp"
-                  alt="Imagen 2"
-                  class="img-fluid"
-                />
+              <!-- pokemon indigo -->
+              <div class="row p-3 align-items-center shadow rounded-3 mb-4">
+                <span class="col-lg-6 p-3">
+                  <div>
+                    <h3>POKEMON INDIGO</h3>
+                    <p>
+                      Atrapa todos los que puedas y disfruta de una colección
+                      llena de amigos.
+                    </p>
+                    <svg viewBox="0 0 100 1" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="0" y1="0" x2="100" y2="0" stroke="tomato" />
+                    </svg>
+                  </div>
+                  <a href="#"
+                    ><button class="btn btn-dark rounded-5">
+                      VER COLECCIÓN
+                    </button></a
+                  >
+                </span>
+                <span class="col-lg-6">
+                  <img
+                    src="media/pokemon/vulpix-1.webp"
+                    alt="Comentario Imagen 1"
+                    class="img-fluid"
+                  />
+                </span>
               </div>
-              <div class="col-6 col-md-4 col-xl-2 rounded border">
-                <img
-                  src="media/pikachu-1.webp"
-                  alt="Imagen 3"
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-6 col-md-4 col-xl-2 rounded border">
-                <img
-                  src="media/charmander-1.webp"
-                  alt="Imagen 4"
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-6 col-md-4 col-xl-2 rounded border">
-                <img
-                  src="media/trooper-1.webp"
-                  alt="Imagen 5"
-                  class="img-fluid"
-                />
+              <!-- harry potter -->
+              <div class="row p-3 align-items-center shadow rounded-3 mb-4">
+                <span class="col-lg-6 p-3">
+                  <div>
+                    <h3>HARRY POTTER</h3>
+                    <p>
+                      Revive los recuerdos de una saga llena de magia y encanto.
+                    </p>
+                    <svg viewBox="0 0 100 1" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="0" y1="0" x2="100" y2="0" stroke="tomato" />
+                    </svg>
+                  </div>
+                  <a href="#"
+                    ><button class="btn btn-dark rounded-5">
+                      VER COLECCIÓN
+                    </button></a
+                  >
+                </span>
+                <span class="col-lg-6">
+                  <img
+                    src="media/harry-potter/snape-patronus-1.webp"
+                    alt="Comentario Imagen 1"
+                    class="img-fluid"
+                  />
+                </span>
               </div>
             </div>
           </div>
         </article>
+      </section>
+      <!-- SECCIÓN DE NUEVOS LANZAMIENTOS -->
+      <section>
+        <div class="container">
+          <h2>NUEVOS LANZAMIENTOS</h2>
+          <div class="row">
+            <!-- card 1 -->
+            <div class="card col col-lg-4">
+              <img
+                src="media/star-wars/trooper-1.webp"
+                class="card-img-top"
+                alt="star-wars trooper"
+              />
+              <div class="card-body">
+                <h6>STAR WARS</h6>
+                <h5 class="card-title">STORMTROOPER LIGHTSABER</h5>
+                <p class="card-text price">$1799,99.-</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card col col-lg-4">
+              <img
+                src="media/pokemon/pidgeotto-1.webp"
+                class="card-img-top"
+                alt="star-wars trooper"
+              />
+              <div class="card-body">
+                <h6>POKEON INDIGO</h6>
+                <h5 class="card-title">PIDGEOTTO</h5>
+                <p class="card-text price">$1799,99.-</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card col col-lg-4">
+              <img
+                src="media/harry-potter/luna-1.webp"
+                class="card-img-top"
+                alt="star-wars trooper"
+              />
+              <div class="card-body">
+                <div class="card-body">
+                  <h6>HARRY POTTER</h6>
+                  <h5 class="card-title">LUNA LOVEGOOD LION MASK</h5>
+                  <p class="card-text price">$1799,99.-</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- FOOTER -->
