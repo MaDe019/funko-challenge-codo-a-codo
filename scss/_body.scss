@@ -5,6 +5,10 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: bolder;
   text-shadow: 3px 3px 15px $shadow-color;
@@ -20,4 +24,8 @@ h3 {
   text-align: left;
   line-height: 1.25;
   font-size: 1.25rem;
+}
+
+.card {
+  height: 100%;
 }

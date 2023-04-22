@@ -1,3 +1,19 @@
-footer {
-  color: $color3;
+.footer__page {
+  background-color: $color3;
+  color: $color2;
+}
+
+ul li a {
+  color: $color2;
+  font-size: 0.75rem;
+}
+
+.footer__icon {
+  height: 5rem;
+}
+
+.footer__made,
+a {
+  background-color: $color3;
+  color: $color2;
 }

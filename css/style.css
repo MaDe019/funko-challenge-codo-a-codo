@@ -57,6 +57,10 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: bolder;
   text-shadow: 3px 3px 15px black;
@@ -74,8 +78,28 @@ h3 {
   font-size: 1.25rem;
 }
 
-footer {
-  color: rgb(34, 38, 42);
+.card {
+  height: 100%;
+}
+
+.footer__page {
+  background-color: rgb(34, 38, 42);
+  color: white;
+}
+
+ul li a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer__icon {
+  height: 5rem;
+}
+
+.footer__made,
+a {
+  background-color: rgb(34, 38, 42);
+  color: white;
 }
 
 @media (max-width: 992px) {
