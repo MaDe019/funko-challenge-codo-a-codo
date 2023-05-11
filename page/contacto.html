@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- CSS BS (antes de CSS) -->
+    <!-- verificar link que funcione y sea de ultima versión de BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- ICONOS BS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- GOOGLE FONT -->
+    <!-- pegar link de google font de letra seleccionada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TITULO PESTAÑA + ICONO -->
+    <title>CONTÁCTENOS</title>
+    <link rel="shortcut icon" href="../media/branding/isotype.svg" />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV BAR -->
+      <div class="navbar__bg">
+        <nav
+          class="container navbar bg-dark navbar-expand-lg"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <div class="">
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  class="img-fluid nav__img-xl"
+                  src="../media/branding/logo_light_horizontal.svg"
+                  alt="logo_light_horizontal"
+                />
+                <!-- opción para que cambie el logo cuando en dispositivos mas pequeños -->
+                <!-- <img
+                  class="img-fluid nav__img-xs"
+                  src="media/branding/isotype.svg"
+                  alt="logo_light_horizontal"
+              /> -->
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    SHOP
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">STAR WARS</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">POKEMON INDIGO</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">HARRY POTTER</a>
+                    </li>
+                    <!-- barra de separación para agregar otro item -->
+                    <!-- <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li> -->
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >CONTACTO</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../page/admin/login.html">LOGING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-cart-fill"></i>
+                    <!-- icono de media carrito -->
+                    <!-- <img
+                      class="nav__icon"
+                      src="media/icons/cart-icon.svg"
+                      alt="carrito"
+                  /> -->
+                  </a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="BUSCAR FUNKO"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  BUSCAR
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- BANNER -->
+      <div class="banner mb-2">
+        <div class="container">
+          <!-- background banner -->
+          <div class="banner__img-height">
+            <!-- info del banner -->
+            <div class="banner__info">
+              <h2>Nuevos Ingresos</h2>
+              <p>Descubri el proximo FUNKO POP de tu colección</p>
+              <a href="../page/shop/shop.html">
+                <button type="button" class="btn btn-light rounded-5">
+                  SHOP
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIN BANNER -->
+      <!-- TITULO DE LA PAGINA H1 va uno solo por pagina -->
+      <div class="container">
+        <h1>CONTACTO</h1>
+      </div>
+
+      <!-- FORMULARIO DE CONTACTO -->
+      <section>
+        <!-- articulos del shop -->
+        <article>
+          <!-- galería de imagenes -->
+          <div class="container">
+            <div>
+              <!--star wars  -->
+              <div class="row p-3 align-items-center shadow rounded-3 mb-4">
+                <span class="col-lg-6 p-3">
+                  <div>
+                    <h3>STAR WARS & THE MANDALORIAN</h3>
+                    <p>
+                      Disfruta de una saga que sigue agregrando personajes a su
+                      colección.
+                    </p>
+                    <svg viewBox="0 0 100 1" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="0" y1="0" x2="100" y2="0" stroke="tomato" />
+                    </svg>
+                  </div>
+                  <a href="#"
+                    ><button type="submit" class="btn btn-dark rounded-5">
+                      ENVIAR
+                    </button></a
+                  >
+                </span>
+                <span class="col-lg-6">
+                  <img
+                    src="../media/star-wars/baby-yoda-1.webp"
+                    alt="Comentario Imagen 1"
+                    class="img-fluid"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- FIN FORMULARIO DE CONSULTAS -->
+      <!-- SECCIÓN DE NUEVOS LANZAMIENTOS -->
+      <section>
+        <div class="container">
+          <h2>NUEVOS LANZAMIENTOS</h2>
+          <!-- carrusel de elementos -->
+          <div
+            id="carouselExampleIndicators"
+            class="carousel carousel-dark slide"
+          >
+            <div class="d-none">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+            <div class="">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!-- aca empiezan elementos para mostrar -->
+                  <div class="d-block w-100 z-0">
+                    <div class="row">
+                      <!-- card 1 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/star-wars/trooper-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>STAR WARS</h6>
+                            <h5 class="card-title">STORMTROOPER LIGHTSABER</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a
+                              href="#"
+                              class="btn btn-outline-dark rounded-5 rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/pokemon/pidgeotto-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>POKEON INDIGO</h6>
+                            <h5 class="card-title">PIDGEOTTO</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="d-none d-lg-block col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/harry-potter/luna-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>HARRY POTTER</h6>
+                            <h5 class="card-title">LUNA LOVEGOOD LION MASK</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- aca terminan elementos para mostrar -->
+                </div>
+                <div class="carousel-item">
+                  <!-- segundo elemento carrusel -->
+                  <!-- aca empiezan elementos para mostrar -->
+                  <div class="d-block w-100 z-0">
+                    <div class="row">
+                      <!-- card 1 -->
+                      <div class="d-none d-lg-block col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/star-wars/trooper-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>STAR WARS</h6>
+                            <h5 class="card-title">STORMTROOPER LIGHTSABER</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/pokemon/pidgeotto-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>POKEON INDIGO</h6>
+                            <h5 class="card-title">PIDGEOTTO</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/harry-potter/luna-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>HARRY POTTER</h6>
+                            <h5 class="card-title">LUNA LOVEGOOD LION MASK</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- aca terminan elementos para mostrar -->
+                </div>
+                <div class="carousel-item">
+                  <!-- ultimo elemento carusel -->
+                  <!-- aca empiezan elementos para mostrar -->
+                  <div class="d-block w-100 z-0">
+                    <div class="row">
+                      <!-- card 1 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/harry-potter/luna-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>HARRY POTTER</h6>
+                            <h5 class="card-title">LUNA LOVEGOOD LION MASK</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="d-none d-lg-block col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/pokemon/pidgeotto-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>POKEON INDIGO</h6>
+                            <h5 class="card-title">PIDGEOTTO</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="col-6 col-lg-4">
+                        <div class="card">
+                          <img
+                            src="media/star-wars/trooper-1.webp"
+                            class="card-img-top"
+                            alt="star-wars trooper"
+                          />
+                          <div class="card-body">
+                            <h6>STAR WARS</h6>
+                            <h5 class="card-title">STORMTROOPER LIGHTSABER</h5>
+                            <p class="card-text price">$1799,99.-</p>
+                            <a href="#" class="btn btn-outline-dark rounded-5"
+                              >VER</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- aca terminan elementos para mostrar -->
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- elementos carousel -->
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="mt-4">
+      <!-- FOOTER DE LA PAGINA -->
+      <div class="footer__page">
+        <div class="container">
+          <div class="row p-3 justify-content-between">
+            <span class="col-6 d-flex align-items-center justify-content-stard">
+              <ul class="p-0">
+                <li><a href="page/shop.html">SHOP</a></li>
+                <li><a href="page/login.html">LOGING</a></li>
+                <li><a href="page/registro.html">REGISTRO</a></li>
+                <li><a href="page/contacto.html">CONTACTO</a></li>
+              </ul></span
+            >
+            <span class="col-6 d-flex align-items-center justify-content-end">
+              <a href="index.html">
+                <img
+                  class="footer__icon"
+                  src="../media/branding/isotype.svg"
+                  alt="logo-funkos"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- COPY + maDE -->
+      <div class="container-fluid text-center footer__made">
+        <span>&copy; Copyright 2023 FUNKO | By Matías Delgado</span>
+        <span>
+          <!-- github -->
+          <a href="https://github.com/MaDe019" target="”_blank”"
+            ><i class="footer__a bi bi-github"></i
+          ></a>
+          <!-- linkedin -->
+          <a
+            href="https://www.linkedin.com/in/delgado-matias/"
+            target="”_blank”"
+            ><i class="footer__a bi bi-linkedin"></i
+          ></a>
+          <!-- ig -->
+          <!-- <a href="https://www.instagram.com/rollertc/" target="”_blank”"
+            ><i class="bi bi-instagram"></i
+          ></a> -->
+        </span>
+      </div>
+    </footer>
+    <!-- SCRIPT BS-->
+    <!-- verificar link que funcione y sea de ultima versión de BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!--SCRIPT DE JS-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
